@@ -91,9 +91,10 @@ dt {
 	clear: both;
 }
 .header {
-	background-image: url('images/name.png');
+	background: url('images/name.png');
 	no-repeat;
 	height: 200px;
+	background-color: #fff8f2;
 	
 }
 .navigation {
