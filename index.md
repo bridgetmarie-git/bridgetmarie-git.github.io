@@ -1,17 +1,86 @@
-![](IMG_20160517_075840.jpg)
-### **Bio:**
-   “Never, ever, ever give up.” – Michael Scott
-   
-   I am excited to learn more about designing mobile user interfaces and getting more experienced with GitHub.
-   I enjoy being in nature and traveling. I like exploring botanical gardens and propagating my own little cactus plant collection at home.    My favorite tv show is The Office (origin of my motto choice).
-   
-   -------
-
-### **List Of Portfolio Projects:**
-
-1. Media Queries
-2. Skeleton
-3. Flexbox
-4. Bootstrap
-5. UIKit
- 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>
+			Portfolio
+		</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="header">
+		</div>
+		<div class="column" id="contact">
+			<b><img alt="Contact" src="images/contact.png" /></b>
+			<p class="intro">
+				
+			</p>
+			
+			<img alt="cactus" src="images/cactus.jpg" />				
+			<dl>
+				<dt>Address:</dt>
+				<dd>1110 Peter Grubb Dr.</dd>
+				<dd>Phoenixville, PA 19460</dd>
+				<dt>Phone:</dt>
+				<dd>215-681-6515</dd>
+				<dt><a href="mailto:bridget@bridgetpizzo.com">Email:</a></dt>
+				<dd>bridget@bridgetpizzo.com</dd>
+			</dl>
+		</div>
+		<div class="column" id="bamboo">
+			<b><img alt="Projects" src="images/projects.png" /></b>
+			<p class="intro">
+				
+			</p>
+				
+					<a href="https://github.com/bridgetmarie-git/bridgetmarie-git.github.io"><img alt="Arishima" src="images/bamboo.jpg" /><p>Git Repo</p></a>
+				
+					<a href="https://github.com/bridgetmarie-git/bridgetmarie-git.github.io/blob/master/index.md"><img alt="Poppies" src="images/flowers.jpg" /><p>Media Queries</p></a>
+				
+				
+					<img alt="Pacific Ocean" src="images/pacific.jpg" /><p>Skeleton</p>
+				
+					<img alt="Poppies" src="images/poppies.jpg" /><p>Flexbox</p>
+			
+					<img alt="Cuba view" src="images/cubawindow.jpg" /><p>Bootstrap</p>
+			
+					<img alt="Lilypad" src="images/lilypad.jpg" /><p>UIKit</p>
+				
+		</div>
+		<div class="column" id="main">
+			<b><img alt="New Work" src="images/newwork.png" /></b>
+			<p class="intro">
+				
+			</p>
+			<img alt="Mom and baby on swing" src="images/swing.jpg" />
+			<br>
+			<p>
+			Lorem ipsum dolor sit amet, donec eu phasellus consectetuer semper vulputate nam, 
+			eu leo tellus aliquet ullamcorper elit, est egestas donec, proin erat sodales, blandit in 
+			praesent integer diam vehicula dignissim. Proin pellentesque ac etiam, consequat lectus qui 
+			eget vitae, sit accumsan fringilla integer taciti accumsan, imperdiet nascetur et interdum 
+			fermentum, dictum et nam dolor magna adipiscing. Suscipit mollis elementum ut id wisi, ac 
+			vel nullam nunc mus. Volutpat aenean, augue sollicitudin ut sem metus elementum, urna nullam.
+			</p>
+			
+			<img alt="Girl with dog and leaf" src="images/leaf.jpg" />
+			<br>
+			<p>
+			Lorem ipsum dolor sit amet, donec eu phasellus consectetuer semper vulputate nam, 
+			eu leo tellus aliquet ullamcorper elit, est egestas donec, proin erat sodales, blandit in 
+			praesent integer diam vehicula dignissim. Proin pellentesque ac etiam, consequat lectus qui 
+			eget vitae, sit accumsan fringilla integer taciti accumsan, imperdiet nascetur et interdum 
+			fermentum, dictum et nam dolor magna adipiscing. Suscipit mollis elementum ut id wisi, ac 
+			vel nullam nunc mus. Volutpat aenean, augue sollicitudin ut sem metus elementum, urna nullam.
+			</p>
+		</div>
+		<div class="footer">
+			<p>				
+				<label>Portfolio Progress:</label>
+				<meter id="progress" value="1" min="0" max="7">1 out of 7</meter><br>
+			</p>
+		</div>
+	</body>
+</html>
+				
