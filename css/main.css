@@ -1,0 +1,169 @@
+/* Desktop, fixed width CSS */
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Color, typography and basic layout
+ * Colors:
+ * - #ffddbe
+ * - #4f4339
+ * - #292420
+ * - #fff1e5
+ */
+body {
+	background: #ffddbe;
+	color: #4f4339;
+	font: 100% "Arial", Arial, "Arial", serif;
+}
+a, a:visited {
+  color: #776555;
+}
+p {
+  margin: 0.5em 0.25em;
+}
+h1 {
+  font-size: 1.75em;
+	border: solid #fff8f2;
+	border-width: 2px 1px;
+	padding: 0.25em;
+  text-align: center;
+  font: 100% "Arial", Arial, "Arial", serif;
+}
+h2 {
+  text-align: center;
+  font: 100% "Arial", Arial, "Arial", serif;
+}
+dl {
+  margin: 0 0.5em;
+}
+dt {
+  font-weight: bold;
+  margin: 0.5em 1em 0.5em 0;
+  
+}
+.intro {
+  font-size: 1.15em;
+  line-height: 1.3em;
+  text-align: justify;
+  margin: 0.5em;
+  font-weight: bold;
+}
+.navigation {
+  background-color:#fff8f2;
+  border-bottom: 2px solid #ffffff;
+}
+.navigation ul li {
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 0.25em 0;
+}
+.navigation li a {
+  color: #ffe4cb;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.header p {
+  margin-left: -1000px;
+}
+/*#bamboo ul {
+  list-style-image: url('images/bamboo.jpg');
+  margin: 0.5em 0 1em 0.5em;
+  padding-left: 1em;
+}
+*/
+#bamboo ul li {
+  margin: 0.5em 1em;
+
+}
+.footer {
+  background-color: #fff8f2;
+  color: #4f4339;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.header, .footer {
+	clear: both;
+}
+.header {
+	background:url(images/name.png)
+	no-repeat;
+	height: 200px;
+	background-color: #fff8f2;
+}
+.navigation {
+	min-height: 25px;
+}
+img, object {
+	max-width: 100%;
+}
+.navigation ul li {
+	width: 33.333%;
+}
+.header, .footer, .navigation {
+	width: 100%
+}
+
+#contact {
+  margin: 10px 0;
+  width: 320px;
+  padding-left: 10px;
+  align-content: center;
+}
+#bamboo {
+  margin: 10px 0;
+  width: 320px;
+  align-content: center;
+}
+#main {
+  margin: 10px 0;
+  width: 620px;
+  align-content: center;
+}
+
+progress {
+  background-color: #ffffff;
+  border: 1px;
+  height: 18px;
+  border-radius: 9px;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+@media screen and (min-width:481px){
+		.column {
+			margin: 10px 1.04166667% 0 0;
+		}
+		
+		#contact {
+			width: 25%;
+			float: left;
+		}
+		
+		#bamboo {
+			width: 25%;
+			float: right;
+		}
+		
+		#main {
+			margin: 10px 27.0833333% 0 26.0416667%;
+		}
+}
+@media screen and (max-width:480px) {
+	.column {
+		margin: 1em 0;
+		border-bottom: 1px dashed
+#7b96bc;
+	}
+	
+	#contact, #bamboo, #main {
+		width: 100%;
+		}
+}
