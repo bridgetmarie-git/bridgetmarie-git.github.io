@@ -1,19 +1,9 @@
-/* Desktop, fixed width CSS */
 
-/* Reset */
 * {
 	margin: 0;
 	padding: 0;
 }
 
-/**
- * Color, typography and basic layout
- * Colors:
- * - #ffddbe
- * - #4f4339
- * - #292420
- * - #fff1e5
- */
 body {
 	background: #ffddbe;
 	color: #4f4339;
@@ -92,7 +82,6 @@ dt {
 }
 .header {
 	background: url(images/name.png);
-	no-repeat;
 	height: 200px;
 	background-color: #fff8f2;
 	
