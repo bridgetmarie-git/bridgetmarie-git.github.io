@@ -11,7 +11,7 @@
 ### **List Of Portfolio Projects:**
 
 1. Media Queries
-2. [Skeleton] (https://bridgetmarie-git.github.io/Resume/index.html) 
+2. [Skeleton](https://bridgetmarie-git.github.io/Resume/index.html) 
 3. Flexbox
 4. Bootstrap
 5. UIKit
