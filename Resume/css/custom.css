@@ -8,7 +8,7 @@
 }
 
 .logo {
-	font-weight: 800;
+	font-weight: 500;
 	color: rgb(255, 255, 255);
 	background-color: gray;
 	position: fixed;
@@ -70,7 +70,7 @@ h2 {
 @media (min-width: 550px) {
 	.header {
 		padding: 40px 0 50px 0;
-		font-size: 5rem;
+		font-size: 3rem;
 	}
 	.logo {
 		position: static;
