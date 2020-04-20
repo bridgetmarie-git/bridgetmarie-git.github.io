@@ -12,7 +12,7 @@
 
 1. [Media Queries](https://bridgetmarie-git.github.io)
 2. [Skeleton](https://bridgetmarie-git.github.io/Resume/index.html) 
-3. [Flexbox](bridgetmarie-git.github.io/Flexbox/index.html)
+3. [Flexbox](https://bridgetmarie-git.github.io/Flexbox/index.html)
 4. Bootstrap
 
  
