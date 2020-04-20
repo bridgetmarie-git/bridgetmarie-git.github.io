@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chanticleer Gardens</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Arial, sans-serif;
+      background-color: #b08a97;
+}
+header, h1, wrapper { margin-top: 0; }
+#wrapper {  background-color: #ffffff; 
+	        width: 90%;
+			margin: auto;
+            color: #b08a97;
+} 
+h1, h2 { color: #003300; }
+header { background-image: url(images/header.jpg);
+         background-repeat: no-repeat;  	
+		 background-size: cover; 
+}
+h1 { text-align: center;
+      font-size: 500%;
+	  color: #ffffff;
+	 padding: 10% 0;
+}		
+		
+nav, main, aside {  padding: 0 1em; 
+}
+img { width: 100%; 
+      height: auto;
+}
+nav ul { list-style-type: none; 
+         font-size: 1.2em;
+		 padding-left: 0;
+}
+nav a { text-decoration: none;}
+nav a:link { color: #330000; }
+nav a:visited { color: #003300; }
+nav a:hover { color: #996600; }
+footer { background-image: url(images/cuttings.jpg);
+         background-repeat: no-repeat;  	
+		 background-size: cover; 
+		 text-align: center;
+         font-size: 100%;
+		 color: #FFFFFF;
+		 padding: 5%;
+		 background-color: #b08a97;
+}
+
+#flex { display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: rox; }
+		
+nav { -webkit-flex: 1;
+		flex: 1; }
+
+main { -webkit-flex: 7;
+		flex: 7; }
+		
+aside { -webkit-flex: 2;
+		flex: 2; }
+			
+@media only screen and (max-width: 1024px) {
+            body { margin: 0; padding: 0; } 
+            #wrapper { width: auto; margin: 0; }
+		    h1 { font-size: 200%; }
+			nav li { padding: 0 0.5em; 
+				     font-size: 1.2em; 	}
+			#flex { -webkit-flex-direction: column;
+					flex-direction: column; }
+			nav ul { display: -webkit-flex;
+					display: flex;
+					-webkit-flex-direction: row;
+					flex-direction: row;
+					-webkit-justify-content: center;
+					justify-content: center; }
+}		
+@media only screen and (max-width: 768px) {
+         	nav { -webkit-order: 1;
+				  order: 1; }
+			nav ul { -webkit-flex-wrap: wrap;
+					 flex-wrap: wrap; }
+}
+header, main, nav, footer, figure, figcaption { display: block; }
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <header role="banner">
+    <h1>CHANTICLEER</h1>
+  </header> 
+  <!-- beginning of flex container -->
+  <div id="flex">
+  <nav role="navigation">
+    <ul>
+	 <li><a href="index.html">HOME</a></li>
+     <li><a href="gardens.html">GARDENS</a></li>
+     <li><a href="history.html">HISTORY</a></li>
+     <li><a href="visit.html">VISIT</a></li>
+	</ul> 
+   </nav>
+   <main role="main">   
+	<img src="images/magnolia.jpg"  alt="Girl walking through blooms">
+	<h2>Planted To Perfection</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra ipsum nunc aliquet bibendum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Fusce ut placerat orci nulla pellentesque dignissim enim. Scelerisque felis imperdiet proin fermentum.</p>
+    
+	<img src="images/walk.jpg"  alt="Girl Walking on Rocks">
+	<h2>America's Most Inspiring Garden </h2>
+    <p>Venenatis tellus in metus vulputate eu scelerisque felis. Auctor eu augue ut lectus arcu bibendum at. Mauris a diam maecenas sed enim. Commodo nulla facilisi nullam vehicula. Elit duis tristique sollicitudin nibh sit. Ut tristique et egestas quis. Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+  	
+	<img src="images/fern.jpg"  alt="Unraveling Fern">
+	<h2>What's In Bloom</h2>
+    <p>Euismod in pellentesque massa placerat duis ultricies. Condimentum mattis pellentesque id nibh tortor id aliquet. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Sit amet mattis vulputate enim. Arcu dictum varius duis at consectetur lorem donec massa sapien. Integer malesuada nunc vel risus commodo viverra. Et leo duis ut diam quam nulla porttitor massa id. Et netus et malesuada fames ac. Suspendisse in est ante in nibh. Lacus suspendisse faucibus interdum posuere lorem. Mauris cursus mattis molestie a iaculis at erat pellentesque. Ut pharetra sit amet aliquam id. Morbi leo urna molestie at elementum eu facilisis. Purus sit amet luctus venenatis lectus magna fringilla urna porttitor. Eu sem integer vitae justo eget magna fermentum iaculis.</p>
+</main> 
+   <aside role="Guided Tours">
+   <img src="images/flowers.jpg"  alt="Girl Looking In Reflected Water In Pot">
+	 <h2>Guided Tours</h2>
+	 <p>Amet risus nullam eget felis eget nunc lobortis. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Sit amet risus nullam eget.</p>
+   </aside>
+   </div> <!-- end of flex container -->
+   <footer role="contentinfo">Copyright &copy; 2020 Chanticleer | 786 Church Road | Wayne, PA 19087 | 610.687.4163 
+   </footer>
+</div>
+</body>
+</html>
