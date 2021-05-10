@@ -9,7 +9,7 @@ nav .btn-group {
 
 @media(max-width: 48em){
   nav .btn-group {
-    position: absolute;
+    position: left;
     top: 0;
     right: 4em;
   }
@@ -22,7 +22,7 @@ section#intro-header {
 }
 
 section#intro-header .wrap-headline {
-  position: relative;
+  position: left;
   padding-top: 20%;
   padding-bottom: 20%;
 }
