@@ -17,7 +17,7 @@ nav .btn-group {
 
 /*row 2*/
 section#intro-header {
-  background-image: url(../imgs/couple.jpg);
+  background-image: url(../imgs/sunny.jpg);
   background-size: cover;
 }
 
@@ -29,7 +29,7 @@ section#intro-header .wrap-headline {
 
 section#intro-header h1,
 section#intro-header h2 {
-  color: #FFF;
+  color: #333333;
 }
 section#intro-header h1{
   font-size: 5.5rem;
