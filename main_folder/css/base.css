@@ -5,6 +5,8 @@ body {
 /*row 1*/
 nav .btn-group {
   margin: 0.8rem 2rem 0 0;
+  background-color: #00008b;
+  color: #ffffff; 
 }
 
 @media(max-width: 48em){
@@ -13,6 +15,7 @@ nav .btn-group {
     top: 0;
     right: 4em;
     background-color: #00008b;
+    color: #ffffff; 
   }
 }
 
