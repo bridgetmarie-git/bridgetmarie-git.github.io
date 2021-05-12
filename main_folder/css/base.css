@@ -50,6 +50,8 @@ section#intro-header .btn-default {
 
 #nav-menu {
   margin-right: 1rem;
+  background-color: #00008b;
+  color: #e5e5e5; 
 }
 
 /*row3 and row4*/
@@ -157,7 +159,7 @@ section#newsletter form {
 
 /* footer */
 footer {
-  background-color: #fff8f2;
+  background-color: #00008b;
   color: #ADADAD;
   margin-top: 3em;
 }
@@ -171,7 +173,7 @@ footer img {
 footer address {
   margin-top: 5em;
   margin-bottom: 5em;
-  color: #5A5A5A;
+  color: #e5e5e5;
 }
 
 footer ul {
@@ -179,14 +181,14 @@ footer ul {
 }
 
 footer address strong {
-  color: #ADADAD;
+  color: #e5e5e5;
   display: block;
   padding-bottom: 0.62em;
 }
 
 footer a {
   font-weight: 300;
-  color: #5A5A5A;
+  color: #e5e5e5;
 }
 
 footer a:hover {
