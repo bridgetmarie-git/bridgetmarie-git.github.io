@@ -12,6 +12,7 @@ nav .btn-group {
     position: left;
     top: 0;
     right: 4em;
+    background-color: #00008b;
   }
 }
 
@@ -51,7 +52,7 @@ section#intro-header .btn-default {
 #nav-menu {
   margin-right: 1rem;
   background-color: #00008b;
-  color: #e5e5e5; 
+  color: #ffffff; 
 }
 
 /*row3 and row4*/
